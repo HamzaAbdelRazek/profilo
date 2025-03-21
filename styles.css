@@ -1,0 +1,113 @@
+.contenitore-card {
+    background: linear-gradient(135deg, #e4cd82, #edf5f7);
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    opacity: 85%;
+}
+
+.intestazione-card {
+    padding: 20px;
+}
+
+.avatar-contenitore {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto 10px;
+}
+body {
+    margin: 30px;
+    font-family:'Arial Narrow Bold';
+    background-image: url(./sofondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+
+.avatar {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+h2 {
+    margin: 5px 0;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.statistiche-card {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0px;
+}
+
+.elemento-statistica {
+    text-align: center;
+}
+
+.elemento-statistica h3 {
+    margin: 0;
+    font-size: 20px;
+}
+
+/* Design Responsivo */
+@media screen and (max-width: 768px) {
+    .contenitore-card {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    .avatar-contenitore {
+        width: 100px;
+        height: 100px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    .elemento-statistica h3 {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 18px;
+    }
+
+    h2 {
+        font-size: 14px;
+    }
+
+    .elemento-statistica h3 {
+        font-size: 16px;
+    }
+    .contenitore-card {
+        padding: 10px;
+    }
+
+    .avatar-contenitore {
+        width: 80px;
+        height: 80px;
+    }
+
+ 
+}
